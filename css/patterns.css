@@ -1,0 +1,37 @@
+h1 {
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 4.2rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    line-height: 125%;
+    letter-spacing: -1px;
+}
+
+.btn {
+    display: inline-block;
+    letter-spacing: .1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1.5rem 3rem;
+    border-radius: 50px;
+    background: linear-gradient( var(--primary), var(--secondary));
+    transition: .3s all;
+    color: var(--white);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.142);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+

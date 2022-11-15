@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Palanquin:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.header {
+    height: 9rem;
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header .container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 150px;
+}
+
+.header .nav-menu .menu {
+    display: flex;
+    align-items: center;
+}
+
+.header .nav-menu .menu li a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1.5rem 2rem;
+    color: var(--bg);
+}
