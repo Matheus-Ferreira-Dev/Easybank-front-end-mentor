@@ -74,3 +74,42 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* ABOUT */
+.about {
+    padding: 10rem 0;
+    background-color: var(--light-gray);
+}
+
+.about p {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    max-width: 650px;
+}
+
+.about .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.about .cards {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    text-align: left;
+    max-width: 33%;
+    margin-left: 3rem;
+}
+
+.about .card p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}

@@ -1,4 +1,11 @@
 @media (max-width: 991px) {
+    .header {
+        height: 150px;
+    }
+
+    .header .logo img {
+        width: 250px;
+    }
     .home .container {
         flex-direction: column-reverse;
     }
@@ -17,6 +24,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    /* ABOUT */
+    .about .container { 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .cards {
+        flex-direction: column;
+    }
+
+    .about .card {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
 }
