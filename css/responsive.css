@@ -3,6 +3,10 @@
         height: 150px;
     }
 
+    .header .nav-menu {
+        display: none;
+    }
+
     .header .logo img {
         width: 250px;
     }
@@ -29,19 +33,22 @@
     /* ABOUT */
     .about .container { 
         justify-content: center;
-        align-items: center;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .about .cards {
         flex-direction: column;
+        align-items: center;
     }
 
-    .about .card {
-        max-width: 100%;
+    .about .cards .card {
         justify-content: center;
         align-items: center;
         text-align: center;
+        max-width: 100%;
+        width: 100%;
     }
 
 }

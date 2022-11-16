@@ -105,11 +105,43 @@
     align-items: flex-start;
     gap: 2.5rem;
     text-align: left;
-    max-width: 33%;
-    margin-left: 3rem;
+    width: 33%;
+    /* margin-left: 3rem; */
+    padding: 2rem 1rem;
 }
 
 .about .card p {
     font-size: 1.6rem;
     font-weight: 400;
 }
+
+/* BLOG */
+
+.blog {
+    padding: 10rem 0;
+}
+
+.blog .posts {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog .posts .post {
+    width: 25%;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.blog .post span {  
+    margin: 2rem 0;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.blog .post p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}  
