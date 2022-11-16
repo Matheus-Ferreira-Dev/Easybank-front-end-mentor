@@ -108,4 +108,8 @@
         max-width: 100%;
     }
 
+    .footer .footer-content .content .btn-primary {
+        max-width: 100%;
+        min-width: 250px;
+    }
 }
