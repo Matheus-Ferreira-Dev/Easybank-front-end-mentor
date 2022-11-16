@@ -60,7 +60,7 @@
       bottom: 0;
     }
     
-      .header .menu {
+      .header .menu-res {
         display: block;
       }
     
@@ -195,6 +195,10 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
+    }
+
+    .footer .footer-content .content:last-child {
+        max-width: 100%;
     }
 
 }
