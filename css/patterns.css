@@ -1,6 +1,6 @@
 h1 {
-    font-size: 6.2rem;
-    font-weight: 700;
+    font-size: 4.8rem;
+    font-weight: 500;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h1, h2, h3 {
     letter-spacing: .1rem;
     font-size: 1.6rem;
     font-weight: 500;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 2.5rem;
     border-radius: 50px;
     background: linear-gradient( var(--primary), var(--secondary));
     transition: .3s all;
