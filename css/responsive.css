@@ -1,7 +1,6 @@
 @media (max-width: 991px) {
     .home .container {
-        flex-direction: column;
-        padding-top: 15rem;
+        flex-direction: column-reverse;
     }
 
     .home .home-text {
